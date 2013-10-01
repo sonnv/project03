@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SEA_Setup>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SEA_Setup>
+    </modules>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SEA_Setup>
+            <version>0.1.1</version>
+        </SEA_Setup>
+    </modules>
+    <global>
+        <resources>
+            <sea_setup_setup>
+                <setup>
+                    <module>SEA_Setup</module>
+                </setup>
+            </sea_setup_setup>
+        </resources>
+    </global>
+</config>
