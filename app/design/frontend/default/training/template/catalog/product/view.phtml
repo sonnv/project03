@@ -55,6 +55,12 @@
             <?php endif; ?>
 
             <?php echo $this->getReviewsSummaryHtml($_product, false, true)?>
+            <div class="product-sku">
+                SKU:<?php echo $_helper->productAttribute($_product, $_product->getSku(), 'sku') ?>
+            </div>
+            <div class="product-sku">
+                Sku:<?php echo $_helper->productAttribute($_product, $_product->getSku(), 'sku') ?>
+            </div>
             <?php echo $this->getChildHtml('alert_urls') ?>
             <?php echo $this->getChildHtml('product_type_data') ?>
             <?php echo $this->getTierPriceHtml() ?>
