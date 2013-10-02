@@ -1,18 +1,15 @@
 <?xml version = "1.0"?>
 <layout>
     <default>
-        <reference name="head">
-            <action method="addItem">
-                <type>skin_css</type>
-                <name>css/sajs.css</name>
-            </action>
-        </reference>
         <reference name="top.links">
             <action method="addLink"><label>Order Tracking</label><url>customer/account/?link=order</url><title>Order Tracking</title></action>
             <remove name ="checkout_cart_link"></remove>
             <block type="checkout/links" name="checkout_cart_link1">
                 <action method="addCartLink"></action>
             </block>
+        </reference>
+        <reference name="footer">
+            <block type="newsletter/subscribe" name="newsletter" as="newsletter" template="newsletter/subscribe.phtml" before="-" />
         </reference>
     </default>
 </layout>
