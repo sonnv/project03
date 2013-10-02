@@ -219,7 +219,7 @@ input.input-text:focus,select:focus,textarea:focus { background-color:#edf7fd; }
 .form-list .customer-name-prefix-middlename .name-firstname { width:140px; }
 .form-list .customer-name-prefix-middlename-suffix .name-firstname input.input-text,
 .form-list .customer-name-prefix-middlename .name-firstname input.input-text { width:124px; }
-.form-list .customer-name-prefix-middlename-suffix .name-lastname { width:205px; }
+.form-list .customer-name-prefix-middlename-suffix .name-lastname { width:205px  ; }
 .form-list .customer-name-prefix-middlename-suffix .name-lastname input.input-text { width:189px; }
 
 .form-list .customer-name-prefix-suffix .name-firstname { width:210px; }
