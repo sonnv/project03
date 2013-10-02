@@ -1700,12 +1700,36 @@ tr.summary-details-excluded { font-style:italic; }
 
 
 /* Footer ================================================================================ */
-.footer-container { border-top:15px solid #b6d1e2; }
-.footer { width:976px; margin:0 auto; padding:10px 10px 50px; }
+.footer-container {  background: #cfdab7 url("../images/bg_footerl.jpg") 0 0 repeat-x;padding: 24px 0px 0px 0px;}
+.footer { width:980px; margin:0 auto; padding:10px 10px 50px; }
+.footer .cms-blog{float: left;width: 589px; }
+.footer .cms-blog .footer-link-col{float: left;width: 198px;text-align: left;}
+.footer .cms-blog .footer-link-col ul{float: none}
+.footer .cms-blog .footer-link-col  h6{font-size: 16px;color: #33334b;}
+.footer .cms-blog .footer-link-col3{width: 160px;}
+
+.footer .newsletter{width: 381px; background: #ffffff;margin: 4px;border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ;-webkit-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.75);}
+.footer .newsletter .newsletter-msg h2{font-style: italic;font-size: 20px;margin-top: 13px;}
+.footer .newsletter .newsletter-msg{margin: 0 auto; width: 315px;}
+.footer .newsletter .newsletter-msg p{font-size: 13px; font-style: italic;}
+.footer .newsletter .form-subscribe{width: 321px; background: #efefef; padding:8px 0 8px 8px; overflow: hidden; border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ; margin: 0 auto; margin-top: 28px}
+.footer .newsletter .form-subscribe .v-fix .input-text{    float: left;border-color: #5c7989;width: 231px;height: 25px;border: 1px #d4d4d4 solid;margin-right: 7px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;}
+.footer .newsletter .form-subscribe .button{float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #cb9484 solid;padding: 4px 0px 5px 0px;background: url("../images/btn_seach.png") repeat-x;}
+.footer .newsletter .form-subscribe .button span, .footer .newsletter .form-subscribe .button span span{background: none;border: none; font: bold 18px/17px Arial, Helvetica, sans-serif;}
+.footer .newsletter .verbenaDivider{width: 321px; margin: 0 auto; height: 30px;background: url("../images/VerbenaDivider.gif") no-repeat center center;margin-top: 6px;}
+.footer .form-subscribe-sosial{margin: 20px 0px 16px 0px;}
+.footer .form-subscribe-sosial label{padding-top: 6px; font-weight: normal;font-size: 16px;font-family: 'SourceSansProLight', Arial, Sans-Serif;}
+.footer .footer-bottom{margin: 274px 0px 0px 0px;width: 676px}
+.footer .footer-bottom .bottom-banner{float: left;display: inline}
+.footer .footer-bottom .bottom-banner li {float: left;text-transform: none;margin-right: 10px;margin: 2px 30px 0px 0px;}
+.footer .footer-bottom .bottom-banner li div div img{margin: 0}
+
 .footer .store-switcher { display:inline; margin:0 5px 0 0; color:#fff; }
 .footer .store-switcher label { font-weight:bold; vertical-align:middle; }
 .footer .store-switcher select { padding:0; vertical-align:middle; }
-.footer a { color:#fff; text-decoration:none; }
+.footer a { color:#333344; text-decoration:none; }
 .footer a:hover { text-decoration:underline; }
 .footer .bugs { margin:13px 0 0; color:#ecf3f6; }
 .footer .bugs a { color:#ecf3f6; text-decoration:underline; }
@@ -1713,11 +1737,13 @@ tr.summary-details-excluded { font-style:italic; }
 .footer address { margin:0 0 20px; color:#ecf3f6; }
 .footer address a { color:#ecf3f6; text-decoration:underline; }
 .footer address a:hover { text-decoration:none; }
-.footer ul { display:inline; }
+
+.footer ul { margin-top: 9px;}
 .footer ul.links { display:block; }
-.footer li { display:inline; background:url(../images/bkg_pipe2.gif) 100% 60% no-repeat; padding:0 7px 0 4px; }
-.footer li.last { background:none !important; padding-right:0 !important; }
+.footer li { text-transform: uppercase; color: #333344 ;margin-bottom: 3px; }
+.footer li.last {  padding-right:0 !important; }
 .footer-container .bottom-container { margin:0 0 5px; }
+
 /* ======================================================================================= */
 
 /* Sample Data============================================================================ */
