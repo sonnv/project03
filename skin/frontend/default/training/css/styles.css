@@ -522,7 +522,9 @@ tr.summary-details-excluded { font-style:italic; }
 .header .logo { float:left; margin:3px 0 10px 12px; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
 .header h1.logo { margin: 14px 0px 0px 6px; }
-.header .quick-access { float:right; width:624px; padding:28px 10px 0 0; }
+.header .quick-access { float:right; width:624px; padding:5px 10px 0 0; color: #747576; }
+.header .quick-access .call-phone{text-align: left; font-size: 16px}
+.header .quick-access .call-phone strong{margin-left: 3px; color: #444545}
 .header .welcome-msg { margin:0; color:#fff; text-align:right; }
 .header .welcome-msg a { color:#ebbc58; }
 .header .form-search { width:303px; background: #efefef; padding:8px 0 8px 8px; overflow: hidden; border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ;}
