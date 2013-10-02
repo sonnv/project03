@@ -25,20 +25,24 @@
  */
 ?>
 <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
-    <div class="form-subscribe-header">
-        <label for="newsletter"><?php echo $this->__('Follow us') ?></label>
-        <?php if(Mage::getSingleton('cms/page')->getIdentifier()!='home'):?>
-        <a class="addthis_button_facebook_follow" addthis:userid="#"><img src="<?php echo $this->getSkinUrl('images/email/facebook-footer.jpg') ?>" alt="" /></a>
-        <?php endif;?>
-        <a class="addthis_button_pinterest_follow" addthis:userid="#"><img src="<?php echo $this->getSkinUrl('images/email/pintrest-footer.jpg') ?>" alt="" /></a>
-    </div>
+    <div class="newsletter-msg">
+		<h2> Stay in touch.</h2>
+		<p> Join our newsletter to receive exclusive Verbena deals, new &amp; more! </p>
+	</div>
     <div class="form-subscribe">
-    <div class="form-subscribe-header">
-        <label for="newsletter"><?php echo $this->__('Be first to know') ?></label>
+		
+			<div class="v-fix"><input name="email" type="text" id="newsletter" value="<?php echo $this->__('Email address') ?>" onclick="this.value=='<?php echo $this->__('Email address') ?>'?this.value='':''" onblur="this.value==''?this.value='<?php echo $this->__('Email address') ?>':''" class="input-text required-entry validate-email" /></div>
+			<button type="submit" class="button button-grey" title="<?php echo $this->__('Join') ?>"><span><span><?php echo $this->__('Join') ?></span></span></button>
     </div>
-        <div class="v-fix"><input name="email" type="text" id="newsletter" value="<?php echo $this->__('Email address') ?>" onclick="this.value=='<?php echo $this->__('Email address') ?>'?this.value='':''" onblur="this.value==''?this.value='<?php echo $this->__('Email address') ?>':''" class="input-text required-entry validate-email" /></div>
-        <button type="submit" class="button button-grey" title="<?php echo $this->__('Sign up') ?>"><span><span><?php echo $this->__('Sign up') ?></span></span></button>
+	<div class="verbenaDivider"></div>
+	<div class="form-subscribe-sosial">
+        <label ><?php echo $this->__('Follow & Share:') ?></label>
+        <?php if(Mage::getSingleton('cms/page')->getIdentifier()!='home'):?>
+        <a class="addthis_button_facebook_follow" addthis:userid="#"><img src="<?php echo $this->getSkinUrl('images/facebook-footer.jpg') ?>" alt="" /></a>
+        <?php endif;?>
+        <a class="addthis_button_pinterest_follow" addthis:userid="#"><img src="<?php echo $this->getSkinUrl('images/pintrest-footer.png') ?>" alt="" /></a>
     </div>
+	
 </form>
 <script type="text/javascript">
 //<![CDATA[

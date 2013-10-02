@@ -26,31 +26,101 @@
 ?>
 <div class="footer-container">
 
-    <div class="footer1">
-        <div class="cms-blog"
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer-service')->toHtml() ?>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('store-policles')->toHtml() ?>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('helpful-links')->toHtml() ?>
+    <div class="footer">
+        <div class="cms-blog">
+            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('customer_service')->toHtml() ?>
+            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('store_policles')->toHtml() ?>
+            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('helpful_links')->toHtml() ?>
         </div>
-        <div style="float: right" class="newsletter"
+        <div style="float: right" class="newsletter">
             <?php echo $this->getChildHtml('newsletter') ?>
-        <div
-    <div class="footer-bottom"> <div style="text-align: left;" class="container"> <h3>Shop With Confidence</h3> <p>We make every effort to provide a safe and secure shopping experience.</p> <ul class="bottom-banner"> <li> <div data-language="en_US" id="DigiCertClickID_NCGGiKeh"><a href="http://www.digicert.com/ssl-certificate.htm">SSL Certificates</a></div> <script type="text/javascript">// &lt;![CDATA[
-                        var __dcid=__dcid || [];__dcid.push(["DigiCertClickID_NCGGiKeh", "10", "m", "black", "NCGGiKeh"]);(function(){var cid=document.createElement("script");cid.async=true;cid.src="//seal.digicert.com/seals/cascade/seal.min.js";var s=document.getElementsByTagName("script");var ls=s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);}());
-                        // ]]&gt;</script><script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script> </li> <li> <span><a href="https://upstream.where.com/jin/spotlight/track?pubid=5521c1f075&amp;width=240&amp;placementtype=120x90&amp;refId=bb09bfff-b184-4e29-846c-e9e6e66a9fad&amp;platformid=0&amp;tz=0&amp;requestzip=null&amp;redirecturl=https%3A%2F%2Fwww.securecheckout.billmelater.com%2Fpaycapture-content%2Ffetch%3Fhash%3DAU826TU8%26content%3D%2Fbmlweb%2Fppwpsiw.html&amp;netid=CAMP_102600" target="_blank"><img width="120" height="90" border="0" src="https://upstream.where.com/jin/ad/spotlight/render?bsf=d2lkdGg9MTIwJmhlaWdodD05MCZ2aWV3PUNBTVBfMTAyNjAwJm5ldGlkPUNBTVBfMTAyNjAwJnB1%0AYmlkPTU1MjFjMWYwNzUmcmVmaWQ9YmIwOWJmZmYtYjE4NC00ZTI5LTg0NmMtZTllNmU2NmE5ZmFk%0AJmFkaWQ9bnVsbCZ0cmFjaz10cnVl"></a><img width="1" height="1" border="0" src="https://t.paypal.com/ts?spid=bb09bfff-b184-4e29-846c-e9e6e66a9fad&amp;pgrp=where:mktg::::adserv&amp;e=im&amp;t=1380680305191"></span> </li> <li><a target="_blank" href="https://www.paypal.com/us/verified/pal=angelaeroque%40gmail%2ecom"><img border="0" alt="Official PayPal Seal" src="https://www.paypal.com/en_US/i/icon/verification_seal.gif"></a></li> <li> <div class="AuthorizeNetSeal"> <script language="javascript" type="text/javascript">// &lt;![CDATA[
-                            var ANS_customer_id="a6b3be9c-7fe7-4d03-b852-0e0a5d414d03";
-                            // ]]&gt;</script> <script src="//verify.authorize.net/anetseal/seal.js" language="javascript" type="text/javascript"></script><style type="text/css">
-                            div.AuthorizeNetSeal{text-align:center;margin:0;padding:0;width:90px;font:normal 9px arial,helvetica,san-serif;line-height:10px;}
-                            div.AuthorizeNetSeal a{text-decoration:none;color:black;}
-                            div.AuthorizeNetSeal a:visited{color:black;}
-                            div.AuthorizeNetSeal a:active{color:black;}
-                            div.AuthorizeNetSeal a:hover{text-decoration:underline;color:black;}
-                            div.AuthorizeNetSeal a img{border:0px;margin:0px;text-decoration:none;}
-                        </style>
-                        <a target="_blank" onclick="window.open('//verify.authorize.net/anetseal/?pid=a6b3be9c-7fe7-4d03-b852-0e0a5d414d03&amp;rurl=https%3A//www.verbenaproducts.com/','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" onmouseout="window.status=''; return true;" onmouseover="window.status='http://www.authorize.net/'; return true;" href="//verify.authorize.net/anetseal/?pid=a6b3be9c-7fe7-4d03-b852-0e0a5d414d03&amp;rurl=https%3A//www.verbenaproducts.com/">
-                            <img width="90" height="72" border="0" alt="Authorize.Net Merchant - Click to Verify" src="//verify.authorize.net/anetseal/images/secure90x72.gif">
-                        </a>
-                        <a target="_blank" href="http://www.authorize.net/" id="AuthorizeNetText">Transaction Processing</a></div> </li> <li><a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=www.verbenaproducts.com"><img width="115" height="32" border="0" alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" src="//images.mcafeesecure.com/meter/www.verbenaproducts.com/61.gif"></a></li> <li></li> </ul> </div> </div>
+        </div>
+        <div class="footer-bottom">
+            <div style="text-align: left;" class="container">
+                <h3>Shop With Confidence</h3>
+
+                <p>We make every effort to provide a safe and secure shopping experience.</p>
+                <ul class="bottom-banner">
+                    <li>
+                        <div data-language="en_US" id="DigiCertClickID_NCGGiKeh"><a
+                                href="http://www.digicert.com/ssl-certificate.htm">SSL Certificates</a></div>
+                        <script type="text/javascript">// &lt;![CDATA[
+                            var __dcid = __dcid || [];
+                            __dcid.push(["DigiCertClickID_NCGGiKeh", "10", "m", "black", "NCGGiKeh"]);
+                            (function () {
+                                var cid = document.createElement("script");
+                                cid.async = true;
+                                cid.src = "//seal.digicert.com/seals/cascade/seal.min.js";
+                                var s = document.getElementsByTagName("script");
+                                var ls = s[(s.length - 1)];
+                                ls.parentNode.insertBefore(cid, ls.nextSibling);
+                            }());
+                            // ]]&gt;</script>
+                        <script async="" src="//seal.digicert.com/seals/cascade/seal.min.js"></script>
+                    </li>
+                    <li><span><a
+                                href="https://upstream.where.com/jin/spotlight/track?pubid=5521c1f075&amp;width=240&amp;placementtype=120x90&amp;refId=bb09bfff-b184-4e29-846c-e9e6e66a9fad&amp;platformid=0&amp;tz=0&amp;requestzip=null&amp;redirecturl=https%3A%2F%2Fwww.securecheckout.billmelater.com%2Fpaycapture-content%2Ffetch%3Fhash%3DAU826TU8%26content%3D%2Fbmlweb%2Fppwpsiw.html&amp;netid=CAMP_102600"
+                                target="_blank"><img width="120" height="90" border="0"
+                                                     src="https://upstream.where.com/jin/ad/spotlight/render?bsf=d2lkdGg9MTIwJmhlaWdodD05MCZ2aWV3PUNBTVBfMTAyNjAwJm5ldGlkPUNBTVBfMTAyNjAwJnB1%0AYmlkPTU1MjFjMWYwNzUmcmVmaWQ9YmIwOWJmZmYtYjE4NC00ZTI5LTg0NmMtZTllNmU2NmE5ZmFk%0AJmFkaWQ9bnVsbCZ0cmFjaz10cnVl"></a><img
+                                width="1" height="1" border="0"
+                                src="https://t.paypal.com/ts?spid=bb09bfff-b184-4e29-846c-e9e6e66a9fad&amp;pgrp=where:mktg::::adserv&amp;e=im&amp;t=1380680305191"></span>
+                    </li>
+                    <li><a target="_blank" href="https://www.paypal.com/us/verified/pal=angelaeroque%40gmail%2ecom"><img
+                                border="0" alt="Official PayPal Seal"
+                                src="https://www.paypal.com/en_US/i/icon/verification_seal.gif"></a></li>
+                    <li>
+                        <div class="AuthorizeNetSeal">
+                            <script language="javascript" type="text/javascript">// &lt;![CDATA[
+                                var ANS_customer_id = "a6b3be9c-7fe7-4d03-b852-0e0a5d414d03";
+                                // ]]&gt;</script>
+                            <script src="//verify.authorize.net/anetseal/seal.js" language="javascript"
+                                    type="text/javascript"></script>
+                            <style type="text/css">
+                                div.AuthorizeNetSeal {
+                                    text-align: center;
+                                    margin: 0;
+                                    padding: 0;
+                                    width: 90px;
+                                    font: normal 9px arial, helvetica, san-serif;
+                                    line-height: 10px;
+                                }
+
+                                div.AuthorizeNetSeal a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+
+                                div.AuthorizeNetSeal a:visited {
+                                    color: black;
+                                }
+
+                                div.AuthorizeNetSeal a:active {
+                                    color: black;
+                                }
+
+                                div.AuthorizeNetSeal a:hover {
+                                    text-decoration: underline;
+                                    color: black;
+                                }
+
+                                div.AuthorizeNetSeal a img {
+                                    border: 0px;
+                                    margin: 0px;
+                                    text-decoration: none;
+                                }
+                            </style>
+                            
+                            <a target="_blank" href="http://www.authorize.net/" id="AuthorizeNetText">Transaction
+                                Processing</a></div>
+                    </li>
+                    <li><a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=www.verbenaproducts.com"><img
+                                width="115" height="32" border="0"
+                                alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams"
+                                src="//images.mcafeesecure.com/meter/www.verbenaproducts.com/61.gif"></a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
