@@ -1728,6 +1728,11 @@ tr.summary-details-excluded { font-style:italic; }
 .footer .footer-bottom .bottom-banner{float: left;display: inline}
 .footer .footer-bottom .bottom-banner li {float: left;text-transform: none;margin-right: 10px;margin: 2px 30px 0px 0px;}
 .footer .footer-bottom .bottom-banner li div div img{margin: 0}
+.footer .cr-paymethod{float: left;width: 100%}
+
+.footer .cr-paymethod address{float: left;color: #444545; font-size: 13px;font-style: italic;margin-top: 38px}
+.footer .cr-paymethod .footer-bottom-right{float: right; margin-top: 38px}
+
 
 .footer .store-switcher { display:inline; margin:0 5px 0 0; color:#fff; }
 .footer .store-switcher label { font-weight:bold; vertical-align:middle; }

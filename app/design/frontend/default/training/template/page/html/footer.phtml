@@ -36,7 +36,8 @@
             <?php echo $this->getChildHtml('newsletter') ?>
         </div>
         <div class="footer-bottom">
-            <div style="text-align: left;" class="container">
+
+            <div style="text-align: left;" class="cr-paymethod">
                 <h3>Shop With Confidence</h3>
 
                 <p>We make every effort to provide a safe and secure shopping experience.</p>
@@ -121,6 +122,11 @@
                 </ul>
             </div>
         </div>
-    </div>
+		<div class="cr-paymethod">
+			<address><?php echo $this->getCopyright() ?></address>
+			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('pay_method')->toHtml() ?>
+			
+		</div>
+	</div>
 </div>
 
