@@ -19,6 +19,7 @@
 	margin: 0 auto;
 	padding: 0;
 	*zoom: 1;
+    border: 1px solid #a5a6a6;
 }
 
 .bx-wrapper img {
@@ -31,12 +32,16 @@
 
 .bx-wrapper .bx-viewport {
 	background: #fff;
+    height: 400px !important;
 }
 
+.bx-wrapper .bx-viewport ul li{
+    width: 976px !important;
+}
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	bottom: 10px;
 	width: 100%;
 }
 
@@ -72,21 +77,21 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+    background: #aaabab;
 	text-indent: -9999px;
 	display: block;
-	width: 10px;
-	height: 10px;
+	width: 12px;
+	height: 12px;
 	margin: 0 5px;
 	outline: 0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+    background-color: #fc9b7f;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */

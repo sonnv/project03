@@ -96,7 +96,7 @@ ul,ol         { list-style:none; }
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
-.main-container { background:#fbfaf6 url(../images/bkg_main1.gif) 50% 0 no-repeat; }
+.main-container { background:#fff; }
 .main { width:976px; margin:0 auto; min-height:400px; text-align:left; }
 
 /* Base Columns */
@@ -514,10 +514,13 @@ tr.summary-details-excluded { font-style:italic; }
 
 .header-container .pre-header{width: 100%; height: 26px;clear: both;background: #444545;}
 .header-container .pre-header .toplink-wellcome{max-width: 976px;margin: 0 auto; }
-.header-container .pre-header .toplink-wellcome .welcome-msg{float: left;font-weight: 700;color: #cb8470;margin-top: 3px}
+.header-container .pre-header .toplink-wellcome .welcome-msg{float: left;font-weight: 700;color: #fc9b7f;margin-top: 3px}
 .header-container .pre-header .toplink-wellcome ul.links{float: left; margin-top: 3px;margin-left: 7px}
-.header-container .pre-header .toplink-wellcome ul.links li a{text-decoration: none;font-weight: 700;margin-top: 3px; color: #ffffff; display: block; border-left: 2px #fff solid;line-height: 1;padding: 0 6px;}
+.header-container .pre-header .toplink-wellcome ul.links li a{text-decoration: none;margin-top: 3px; color: #ffffff; display: block; border-left: 2px #fff solid;line-height: 1;padding: 0 6px;}
 .header-container .pre-header .toplink-wellcome ul.links li{float: left}
+.header-container .pre-header .toplink-wellcome .bookmarklet{font-size: 12px; font-style: inherit;color: #ffffff; display: inline-block;background: url("../images/bookmark.png") 0px 3px no-repeat;padding: 3px 0px 0px 22px; text-decoration: none;  float: left;margin-left: 11px; }
+.header-container .pre-header .toplink-wellcome .shipping-message{float: right;color: #fff;font-size: 10px;font-size: 12px;margin-top: 3px;}
+.header-container .pre-header .toplink-wellcome .shipping-message skin{float: left;font-weight: 700;color: #fc9b7f;text-transform: uppercase; margin-right: 3px}
 .header { width:976px; margin:0 auto; padding:10px; text-align:right; position:relative; z-index:10; }
 .header .logo { float:left; margin:3px 0 10px 12px; text-decoration:none !important; }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
