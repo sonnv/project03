@@ -531,7 +531,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .form-search label {display: none; float:left; width:24px; height:21px; text-align:left; text-indent:-999em; overflow:hidden; }
 .header .form-search input.input-text { float:left; border-color:#5c7989; width:201px; height: 25px;border: 1px #d4d4d4 solid; margin-right:7px; border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ;}
 .header .form-search button.button { float:left; border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ;border: 1px #cb9484 solid;padding: 4px 1px 5px 4px;background: url("../images/btn_seach.png") repeat-x; }
-.header .form-search button.button span { border:0;;  padding:0 0 0 3px; font:bold 18px  Arial, sans-serif; background: none}
+.header .form-search button.button span {  border:0;;  padding:0 0 0 3px; font:bold 18px  Arial, sans-serif; background: none}
 .header .form-search button.button span span { background-position:100% 0; padding:0 6px 0 3px; }
 .header .form-search .search-autocomplete { z-index:999; left:40px !important; top:22px !important; }
 .header .form-search .search-autocomplete ul { border:1px solid #5c7989; background-color:#f9f5f0; }
