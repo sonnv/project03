@@ -1830,3 +1830,10 @@ tr.summary-details-excluded { font-style:italic; }
 /* ======================================================================================= */
 
 .guest-select {width:305px !important;}
+
+/* ============== slider ================== */
+.col1-layout .col-main .std .product .bx-wrapper{float: left;border: 0}
+
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper{border-right: 1px solid; max-width: 594px !important;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .bx-viewport .slider1{width: 246px}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport ul li{ width: 246px !important;}
