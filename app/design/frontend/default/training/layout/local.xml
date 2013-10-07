@@ -11,8 +11,16 @@
                 <name>bxslider/jquery.bxslider.min.js</name>
             </action>
             <action method="addItem">
+                <type>skin_js</type>
+                <name>carouFredSel/jquery.carouFredSel-6.2.1-packed.js</name>
+            </action>
+            <action method="addItem">
                 <type>skin_css</type>
                 <name>bxslider/jquery.bxslider.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>carouFredSel/style.css</name>
             </action>
         </reference>
         <reference name="top.links">
