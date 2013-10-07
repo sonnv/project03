@@ -1837,3 +1837,8 @@ tr.summary-details-excluded { font-style:italic; }
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper{border-right: 1px solid; max-width: 594px !important;}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .bx-viewport .slider1{width: 246px}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport ul li{ width: 246px !important;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid,.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .products-grid{background: none}
+.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .bx-viewport .slider2 .item{width: 296px !important;float: left}
+.col1-layout .col-main .std .product .featured-big-products .bx-wrapper{width: 300px}
+
+.col1-layout .col-main .std .product .title-ctrl h1{font: 14px/1.55 'Source Sans Pro', Arial, Helvetica, sans-serif;}
