@@ -1840,5 +1840,12 @@ tr.summary-details-excluded { font-style:italic; }
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid,.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .products-grid{background: none}
 .col1-layout .col-main .std .product .featured-big-products .bx-wrapper .bx-viewport .slider2 .item{width: 296px !important;float: left}
 .col1-layout .col-main .std .product .featured-big-products .bx-wrapper{width: 300px}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport{height: inherit !important;}
 
-.col1-layout .col-main .std .product .title-ctrl h1{font: 14px/1.55 'Source Sans Pro', Arial, Helvetica, sans-serif;}
+.col1-layout .col-main .std .product .title-ctrl h1{font: 28px/1.55 'Source Sans Pro', Arial, Helvetica, sans-serif;float: left;}
+.col1-layout .col-main .std .product .title-ctrl a{float: right; display: block; width: 10px;float:right;width: 15px;height: 23px;text-indent: -9999px;margin-top: 9px;
+}
+.col1-layout .col-main .std .product .title-ctrl{float: left;width: 100%}
+
+.col1-layout .col-main .std .product .title-ctrl a.bt-pre-list{background: url("../images/nav.png") no-repeat 0 0;margin-right: 39px}
+.col1-layout .col-main .std .product .title-ctrl a.bt-next-list{background: url("../images/nav.png") no-repeat -54px 0;margin-right: 8px}
