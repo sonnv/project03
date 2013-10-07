@@ -148,8 +148,8 @@ input.checkbox { margin-right:3px; }
 input.qty { width:2.5em !important; }
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
 button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
-button.button { overflow:visible; width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer; }
-button.button span { display:block; height:19px; border:1px solid #de5400; background:#f18200; padding:0 8px; font:bold 12px/19px Arial, Helvetica, sans-serif; text-align:center; white-space:nowrap; color:#fff; }
+button.button { overflow:visible; width:auto; border:0; padding:0; margin:0;  cursor:pointer;float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #CB9484 solid;background: url("../images/btn_seach.png") repeat-x; }
+button.button span { display:block; height:19px;text-align:center; white-space:nowrap; color:#fff;border: 0; font: bold 18px Arial, sans-serif;background: none; }
 button.button span span { border:0; padding:0; }
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
 
@@ -885,7 +885,7 @@ tr.summary-details-excluded { font-style:italic; }
 .price { white-space:nowrap !important; }
 
 .price-box { margin:5px 0; }
-.price-box .price { font-weight:bold; color:#c76200; }
+.price-box .price {  color:#c76200; }
 
 /* Regular price */
 .regular-price { color:#c76200; }
@@ -894,22 +894,22 @@ tr.summary-details-excluded { font-style:italic; }
 .block .regular-price .price { color:#2f2f2f; }
 
 /* Old price */
-.old-price { margin:0; }
-.old-price .price-label { white-space:nowrap; color:#999; }
-.old-price .price { font-weight:bold; color:#c76200; text-decoration:line-through; }
+.old-price { margin:0 !important; }
+.old-price .price-label { white-space:nowrap; color:#aa9999; font-style: italic}
+.old-price .price { color:#aa9999;font-style: italic}
 
 /* Special price */
-.special-price { margin:0; padding:3px 0; }
-.special-price .price-label { font-size:13px; font-weight:bold; white-space:nowrap; color:#cd5033; }
-.special-price .price { font-size:13px; font-weight:bold; color:#c76200; }
+.special-price { margin:0 !important; padding:3px 0; }
+.special-price .price-label { font-size:13px;  white-space:nowrap; color:#444444;font-style: italic }
+.special-price .price { font-size:13px;  color:#444444;font-style: italic }
 
 /* Minimal price (as low as) */
 .minimal-price { margin:0; }
 .minimal-price .price-label { font-weight:bold; white-space:nowrap; }
 
-.minimal-price-link { display:block; }
-.minimal-price-link .label {color:#1e7ec8;}
-.minimal-price-link .price { font-weight:normal; color:#1e7ec8; }
+.minimal-price-link { display:block;text-decoration: none }
+.minimal-price-link .label {color:#587dbe; }
+.minimal-price-link .price {  color:#587dbe; }
 
 /* Excluding tax */
 .price-excluding-tax { display:block; color:#999; }
@@ -1834,18 +1834,26 @@ tr.summary-details-excluded { font-style:italic; }
 /* ============== slider ================== */
 .col1-layout .col-main .std .product .bx-wrapper{float: left;border: 0}
 
-.col1-layout .col-main .std .product .peatured-products .bx-wrapper{border-right: 1px solid; max-width: 594px !important;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper{border-right: 1px solid #aaabab; max-width: 594px !important;margin-top: 33px}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .bx-viewport .slider1{width: 246px}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport ul li{ width: 246px !important;}
-.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid,.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .products-grid{background: none}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid,.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .products-grid{background: none;padding: 0;margin: 0}
 .col1-layout .col-main .std .product .featured-big-products .bx-wrapper .bx-viewport .slider2 .item{width: 296px !important;float: left}
-.col1-layout .col-main .std .product .featured-big-products .bx-wrapper{width: 300px}
+.col1-layout .col-main .std .product .featured-big-products .bx-wrapper{width: 300px;margin-top: 33px}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport{height: inherit !important;}
 
-.col1-layout .col-main .std .product .title-ctrl h1{font: 28px/1.55 'Source Sans Pro', Arial, Helvetica, sans-serif;float: left;}
+.col1-layout .col-main .std .product .title-ctrl h1{font-size: 28px; font-family:  'Source Sans Pro', Arial, Helvetica, sans-serif;float: left;}
 .col1-layout .col-main .std .product .title-ctrl a{float: right; display: block; width: 10px;float:right;width: 15px;height: 23px;text-indent: -9999px;margin-top: 9px;
 }
-.col1-layout .col-main .std .product .title-ctrl{float: left;width: 100%}
+.col1-layout .col-main .std .product .title-ctrl{float: left;width: 100%;border-bottom: 1px solid #aaabab; }
 
 .col1-layout .col-main .std .product .title-ctrl a.bt-pre-list{background: url("../images/nav.png") no-repeat 0 0;margin-right: 39px}
 .col1-layout .col-main .std .product .title-ctrl a.bt-next-list{background: url("../images/nav.png") no-repeat -54px 0;margin-right: 8px}
+
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .product-image { width:170px; height:170px; margin: 0 auto;  }
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid li.item{padding: 0}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid li.item h2 a{ font-family:  'Source Sans Pro', Arial, Helvetica, sans-serif; text-decoration: none;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid li.item h2{margin: 41px 0 0 0;font-size: 14px; color: #333333;font-weight: normal;line-height: 25px}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .actions{position: static;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .price-box{margin-top: 10px;}
+.col1-layout .col-main .std .product .peatured-products .bx-wrapper .price-box .old-price .price-label{}
