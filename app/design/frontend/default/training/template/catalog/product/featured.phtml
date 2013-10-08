@@ -81,16 +81,21 @@ $_helper = $this->helper('catalog/output');
         <?php $_collectionSize = $_productCollection->count() ?>
         <?php $_columnCount = $this->getColumnCount(); ?>
         <script type="text/javascript" language="javascript">
-            jQuery(function() {
+            jQuery(document).ready(function() {
 
 
                 //	Scrolled by user interaction
-                jQuery('#foo2').carouFredSel({
+                jQuery('#bigfeature-foo2').carouFredSel({
                     auto: false,
-                    prev: '#prev2',
-                    next: '#next2',
-                    pagination: "#pager2",
-                    mousewheel: true,
+                    prev: '#bigfeature-prev2',
+                    next: '#bigfeature-next2',
+                    items:{
+                        visible:4
+                    },
+                    scroll:{
+                        items:4
+                    },
+                        mousewheel: true,
                     swipe: {
                         onMouse: true,
                         onTouch: true
@@ -99,8 +104,8 @@ $_helper = $this->helper('catalog/output');
 
             });
         </script>
-        <div class="list_carousel1">
-            <ul id="foo2">
+        <div class="list_carousel1" style="width: 631px;">
+            <ul id="bigfeature-foo2">
         <?php $i=0; foreach ($_productCollection as $_product): ?>
         <?php if ($i++%$_columnCount==0): ?>
         <?php endif ?>
@@ -124,10 +129,6 @@ $_helper = $this->helper('catalog/output');
         <?php endforeach ?>
                 </ul>
         </div>
-        <div class="clearfix"></div>
-        <a id="prev2" class="prev" href="#">&lt;</a>
-        <a id="next2" class="next" href="#">&gt;</a>
-        <div id="pager2" class="pager"></div>
             <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
         <?php endif; ?>
 

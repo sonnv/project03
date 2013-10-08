@@ -1,9 +1,6 @@
 
 
 .list_carousel1 {
-    background-color: #ccc;
-    margin: 0 0 30px 60px;
-    width: 360px;
 }
 .list_carousel1 ul {
     margin: 0;
@@ -12,17 +9,14 @@
     display: block;
 }
 .list_carousel1 li {
-    font-size: 40px;
     color: #999;
     text-align: center;
-    background-color: #eee;
     border: 5px solid #999;
-    width: 50px;
-    height: 50px;
+    width: 135px;
     padding: 0;
     margin: 6px;
     display: block;
-    float: left;   
+    float: left;
 }
 .list_carousel1.responsive {
     width: auto;
@@ -33,8 +27,6 @@
 
 
 .list_carousel2 {
-    background-color: #ccc;
-    margin: 0 0 30px 60px;
     width: 360px;
 }
 .list_carousel2 ul {
@@ -44,13 +36,10 @@
     display: block;
 }
 .list_carousel2 li {
-    font-size: 40px;
-    color: #999;
     text-align: center;
-    background-color: #eee;
     border: 5px solid #999;
-    width: 50px;
-    height: 50px;
+    width: 135px;
+    height: 135px;
     padding: 0;
     margin: 6px;
     display: block;
