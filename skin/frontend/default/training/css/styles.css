@@ -148,7 +148,7 @@ input.checkbox { margin-right:3px; }
 input.qty { width:2.5em !important; }
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
 button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
-button.button { overflow:visible; width:auto; border:0; padding:0; margin:0;  cursor:pointer;float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #CB9484 solid;background: url("../images/btn_seach.png") repeat-x; }
+button.button { overflow:visible; width:auto; border:0; padding:0; margin:0;  cursor:pointer;float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #CB9484 solid;background: url("../images/btn_seach.png") repeat-x; webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);-moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);}
 button.button span { display:block; height:19px;text-align:center; white-space:nowrap; color:#fff;border: 0; font: bold 18px Arial, sans-serif;background: none; }
 button.button span span { border:0; padding:0; }
 button.disabled span { border-color:#bbb !important; background:#bbb !important; }
@@ -1720,7 +1720,7 @@ tr.summary-details-excluded { font-style:italic; }
 .footer .newsletter .newsletter-msg p{font-size: 13px; font-style: italic;}
 .footer .newsletter .form-subscribe{width: 321px; background: #efefef; padding:8px 0 8px 8px; overflow: hidden; border-radius: 2px;-moz-border-radius: 2px ;-webkit-border-radius: 2px ; margin: 0 auto; margin-top: 28px}
 .footer .newsletter .form-subscribe .v-fix .input-text{    float: left;border-color: #5c7989;width: 231px;height: 25px;border: 1px #d4d4d4 solid;margin-right: 7px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;}
-.footer .newsletter .form-subscribe .button{float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #cb9484 solid;padding: 4px 0px 5px 0px;background: url("../images/btn_seach.png") repeat-x;}
+.footer .newsletter .form-subscribe .button{float: left;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border: 1px #cb9484 solid;padding: 5px 9px 5px 6px;background: url("../images/btn_seach.png") repeat-x;}
 .footer .newsletter .form-subscribe .button span, .footer .newsletter .form-subscribe .button span span{background: none;border: none; font: bold 18px/17px Arial, Helvetica, sans-serif;}
 .footer .newsletter .verbenaDivider{width: 321px; margin: 0 auto; height: 30px;background: url("../images/VerbenaDivider.gif") no-repeat center center;margin-top: 6px;}
 .footer .form-subscribe-sosial{margin: 20px 0px 16px 0px;}
