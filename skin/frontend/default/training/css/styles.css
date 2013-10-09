@@ -1834,9 +1834,9 @@ tr.summary-details-excluded { font-style:italic; }
 /* ============== slider ================== */
 .col1-layout .col-main .std .product .bx-wrapper{float: left;border: 0}
 
-.col1-layout .col-main .std .product .peatured-products .bx-wrapper{border-right: 1px solid #aaabab; max-width: 594px !important;margin-top: 33px}
+.col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper{border-right: 1px solid #aaabab; max-width: 594px !important;margin-top: 33px}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .bx-viewport .slider1{width: 246px}
-.col1-layout .col-main .std .product .peatured-products .bx-wrapper .bx-viewport ul li{ width: 246px !important;}
+.col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li{ width: 246px !important;float: left}
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid,.col1-layout .col-main .std .product .featured-big-products .bx-wrapper .products-grid{background: none;padding: 0;margin: 0}
 .col1-layout .col-main .std .product .featured-big-products .bx-wrapper .bx-viewport .slider2 .item{width: 296px !important;float: left}
 .col1-layout .col-main .std .product .featured-big-products .bx-wrapper{width: 300px;margin-top: 33px}
@@ -1847,8 +1847,8 @@ tr.summary-details-excluded { font-style:italic; }
 }
 .col1-layout .col-main .std .product .title-ctrl{float: left;width: 100%;border-bottom: 1px solid #aaabab; }
 
-.col1-layout .col-main .std .product .title-ctrl a.bt-pre-list{background: url("../images/nav.png") no-repeat 0 0;margin-right: 39px}
-.col1-layout .col-main .std .product .title-ctrl a.bt-next-list{background: url("../images/nav.png") no-repeat -54px 0;margin-right: 8px}
+.col1-layout .col-main .std .product .title-ctrl a.prev{background: url("../images/nav.png") no-repeat 0 0;margin-right: 39px}
+.col1-layout .col-main .std .product .title-ctrl a.next{background: url("../images/nav.png") no-repeat -54px 0;margin-right: 8px}
 
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid .product-image { width:170px; height:170px; margin: 0 auto;  }
 .col1-layout .col-main .std .product .peatured-products .bx-wrapper .products-grid li.item{padding: 0}
