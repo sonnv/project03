@@ -31,6 +31,11 @@
             </block>
             <action method="addLink"><label>Blog</label><url>blog</url><title>Blog</title></action>
         </reference>
+        <reference name="left"> <!-- find left column block -->
+            <block type="mana_filters/view" name="mana.catalog.leftnav" before="-" template="catalog/layer/view.phtml"/>
+               <remove name="left.permanent.callout"></remove>
+        </reference>
+        <remove name ="right"></remove>
         <reference name="footer">
             <block type="newsletter/subscribe" name="newsletter" as="newsletter" template="newsletter/subscribe.phtml" before="-" />
         </reference>
