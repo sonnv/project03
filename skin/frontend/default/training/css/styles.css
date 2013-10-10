@@ -100,8 +100,8 @@ ul,ol         { list-style:none; }
 .main { width:976px; margin:0 auto; min-height:400px; text-align:left; }
 
 /* Base Columns */
-.col-left { float:left; width:195px; padding:0 0 1px; }
-.col-main { float:left; width:685px; padding:0 0 1px; }
+.col-left { float:left; width:248px; padding:0 0 1px; }
+.col-main { float:left; width:710px; padding:0 0 1px; }
 .col-right { float:right; width:195px; padding:0 0 1px; }
 
 /* 1 Column Layout */
@@ -112,8 +112,8 @@ ul,ol         { list-style:none; }
 .col2-right-layout .col-main {}
 
 /* 3 Columns Layout */
-.col3-layout .col-main { width:475px; margin-left:17px; }
-.col3-layout .col-wrapper { float:left; width:687px; }
+.col3-layout .col-main { width:704px; margin-left:17px; }
+.col3-layout .col-wrapper { float:left; width:100%; }
 .col3-layout .col-wrapper .col-main { float:right; }
 
 /* Content Columns */
@@ -189,11 +189,11 @@ input.input-text:focus,select:focus,textarea:focus { background-color:#edf7fd; }
 .form-list li.additional-row .btn-remove { float:right; margin:5px 0 0; }
 .form-list .input-range input.input-text { width:74px; }
 
-.form-list-narrow li  { margin-bottom:0; } 
+.form-list-narrow li  { margin-bottom:0; }
 .form-list-narrow li .input-box { margin-bottom:6px; }
-.form-list-narrow li.wide .input-box { width:260px; } 
-.form-list-narrow li.wide input.input-text, 
-.form-list-narrow li.wide textarea { width:254px } 
+.form-list-narrow li.wide .input-box { width:260px; }
+.form-list-narrow li.wide input.input-text,
+.form-list-narrow li.wide textarea { width:254px }
 .form-list-narrow li.wide select { width:260px; }
 
 /* Customer */
@@ -348,7 +348,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .sub-title { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
 
 /* Pager */
-.pager { font-size:11px; background:#fff url(../images/bkg_toolbar.gif) 0 100% repeat-x; padding:4px 8px; border-top:1px solid #e2e2e2; text-align:center; }
+.pager { font-size:11px;text-align:center; }
 .pager .amount { float:left; margin:0; }
 .pager .limiter { float:right; }
 .pager .limiter label { vertical-align:middle; }
@@ -359,7 +359,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .pager .pages .current {}
 
 /* Sorter */
-.sorter { font-size:11px; background:#fff url(../images/bkg_toolbar.gif) 0 100% repeat-x; padding:3px 8px; border-top:1px solid #e2e2e2; }
+.sorter {  }
 .sorter .view-mode { float:left; margin:0; }
 .sorter .sort-by { float:right; padding-right:36px; }
 .sorter .sort-by label { vertical-align:middle; }
@@ -367,9 +367,11 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .sorter .link-feed {}
 
 /* Toolbar */
-.toolbar {}
-.toolbar .pager { padding:3px 8px; border-bottom:1px solid #fff; }
-.toolbar .sorter { border-bottom:1px solid #fff; }
+.toolbar {background: #F2F2F0;padding: 12px 0px 0px 9px;}
+.toolbar .pager { padding:3px 8px; width: 526px; }
+.toolbar .sorter  {  }
+.toolbar .sort-by { float:left; padding-right:36px;display: inline }
+.toolbar .sort-by label{font-size: 10px}
 .toolbar-bottom {}
 
 /* Data Table */
@@ -1876,3 +1878,8 @@ tr.summary-details-excluded { font-style:italic; }
 
 .col1-layout .col-main .std .product .peatured-big-products .list_carousel2 .caroufredsel_wrapper ul li  .actions button.button{padding: 4px 10px;float: right; margin-top: 13px}
 .col1-layout .col-main .std .product .peatured-big-products .list_carousel2 .caroufredsel_wrapper ul li  .actions button.button span {margin-bottom: 3px;}
+
+
+/* Category page*/
+
+.col3-layout .col-wrapper .col-main .title-result { font-size: 33px;font-family: 'SourceSansProLight', Arial, Sans-Serif;font-weight: normal;}
