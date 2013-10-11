@@ -1852,7 +1852,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li{ width: 631px !important;float: left; border: 0;margin: 0}
 
-.col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature {float: left; width: 278px;margin-top: 10px;margin-right: 5px;}
+.col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature {float: left; width: 270px;margin-top: 10px;margin-right: 5px;}
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature .product-image img { width:170px; height:170px; margin: 0 auto;  }
 
 
@@ -1864,6 +1864,7 @@ tr.summary-details-excluded { font-style:italic; }
 .col1-layout .col-main .std .product .title-ctrl a.prev{background: url("../images/nav.png") no-repeat 0 0;margin-right: 39px}
 .col1-layout .col-main .std .product .title-ctrl a.next{background: url("../images/nav.png") no-repeat -54px 0;margin-right: 8px}
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature .price-box{margin-top: 10px;float: left;width: 100%;text-align: left }
+.col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature .sale-off{display: block;text-decoration: none;margin-top: 6px;float: left;color: #587DBE;}
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature .price-box .old-price .price-label{ }
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature h2{margin: 31px 0 0 0;font-size: 14px; color: #333333;font-weight: normal;line-height: 25px}
 .col1-layout .col-main .std .product .peatured-products .list_carousel1 .caroufredsel_wrapper ul li .list-product-feature h2 a{ font-family:  'Source Sans Pro', Arial, Helvetic 2sans-serif; text-decoration: none;float: left;margin: 0;display: block;text-align: left;}
