@@ -824,6 +824,7 @@ tr.summary-details-excluded { font-style:italic; }
 .products-grid .product-name a { color:#203548; text-decoration: none; }
 .products-grid .product-name a:hover { text-decoration: underline; }
 .products-grid .price-box { margin:-3px 0px 5px 0px; }
+.products-grid .price-box .sale-off{text-align: center;width: 100%;}
 .products-grid .availability { line-height:21px; }
 .products-grid .actions {  bottom:12px; position: absolute; left: 35px;}
 .products-grid .actions button.button{margin: 0 auto;padding: 5px 6px 5px 5px;}
@@ -900,6 +901,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 .price-box { margin:5px 0; }
 .price-box .price {  color:#c76200; }
+.price-box .sale-off{display: block;text-decoration: none;float: left;color: #587DBE;text-align: left;}
 
 /* Regular price */
 .regular-price { color:#c76200; }
