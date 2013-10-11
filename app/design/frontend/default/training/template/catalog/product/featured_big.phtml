@@ -104,7 +104,14 @@ $_helper = $this->helper('catalog/output');
         </script>
         <div class="list_carousel2" style="width: 631px;">
             <ul id="feature-slide">
-                <?php $i=0; foreach ($_productCollection as $_product): ?>
+                <?php $i=0; foreach ($_productCollection as $_product):
+                    $price= $_product->getPrice();
+                    $price_special = $_product->getSpecialPrice();
+                    if(!empty($price) && !empty($price_special)){
+                        $you_save = $price_special%$price;
+                        $save_value =(($price-$price_special)/$price)*100;
+                    }
+                    ?>
                     <?php if ($i++%$_columnCount==0): ?>
                     <?php endif ?>
                     <li>
@@ -122,6 +129,11 @@ $_helper = $this->helper('catalog/output');
                                 <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
                             <?php endif; ?>
                         </div>
+                        <?php  if(!empty($price_special)){?>
+                        <div class="sale-off">
+                            <span>You Save</span><?php echo $save_value;?><span>%</span>
+                        </div>
+                        <?php }?>
                     </li>
                     <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
                     <?php endif ?>
